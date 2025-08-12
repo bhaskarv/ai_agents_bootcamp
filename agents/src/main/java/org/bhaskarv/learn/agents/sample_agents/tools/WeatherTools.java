@@ -29,7 +29,7 @@ public class WeatherTools {
                     .stream()
                     .map(mcpTool -> (BaseTool)mcpTool)
                     .toList();
-            log.info("*** Discovered tools {}", toolsList);
+            log.info("*** Discovered tools {}", toolsList.stream().map(e -> ((BaseTool)e).name()).toList());
         } catch (ExecutionException | InterruptedException e) {
             log.error(" Error while getting tools {}", e.getMessage());
             throw new RuntimeException(e);
