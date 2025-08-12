@@ -1,4 +1,4 @@
-package org.nvision.learn.weather.mcpserver.service;
+package org.bhaskarv.learn.weather.mcpserver.service;
 
 import org.json.JSONObject;
 import org.slf4j.Logger;

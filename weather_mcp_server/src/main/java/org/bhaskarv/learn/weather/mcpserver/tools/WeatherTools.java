@@ -1,8 +1,8 @@
-package org.nvision.learn.weather.mcpserver.tools;
+package org.bhaskarv.learn.weather.mcpserver.tools;
 
-import org.nvision.learn.weather.mcpserver.model.Location;
-import org.nvision.learn.weather.mcpserver.service.LocationService;
-import org.nvision.learn.weather.mcpserver.service.WeatherForecastService;
+import org.bhaskarv.learn.weather.mcpserver.model.Location;
+import org.bhaskarv.learn.weather.mcpserver.service.LocationService;
+import org.bhaskarv.learn.weather.mcpserver.service.WeatherForecastService;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Service;
 

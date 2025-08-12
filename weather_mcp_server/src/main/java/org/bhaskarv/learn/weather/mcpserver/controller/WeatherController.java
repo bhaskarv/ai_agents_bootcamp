@@ -1,8 +1,8 @@
-package org.nvision.learn.weather.mcpserver.controller;
+package org.bhaskarv.learn.weather.mcpserver.controller;
 
-import org.nvision.learn.weather.mcpserver.model.Location;
-import org.nvision.learn.weather.mcpserver.service.LocationService;
-import org.nvision.learn.weather.mcpserver.service.WeatherForecastService;
+import org.bhaskarv.learn.weather.mcpserver.model.Location;
+import org.bhaskarv.learn.weather.mcpserver.service.LocationService;
+import org.bhaskarv.learn.weather.mcpserver.service.WeatherForecastService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

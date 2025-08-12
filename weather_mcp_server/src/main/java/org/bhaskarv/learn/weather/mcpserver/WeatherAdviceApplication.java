@@ -1,6 +1,6 @@
-package org.nvision.learn.weather.mcpserver;
+package org.bhaskarv.learn.weather.mcpserver;
 
-import org.nvision.learn.weather.mcpserver.tools.WeatherTools;
+import org.bhaskarv.learn.weather.mcpserver.tools.WeatherTools;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;

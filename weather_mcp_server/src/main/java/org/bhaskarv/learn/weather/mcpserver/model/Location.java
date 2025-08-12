@@ -1,4 +1,4 @@
-package org.nvision.learn.weather.mcpserver.model;
+package org.bhaskarv.learn.weather.mcpserver.model;
 
 public class Location {
     String cityName;
