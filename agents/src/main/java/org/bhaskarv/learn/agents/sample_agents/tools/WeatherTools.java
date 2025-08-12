@@ -1,4 +1,4 @@
-package org.nvision.learn.agents.sample_agents.tools;
+package org.bhaskarv.learn.agents.sample_agents.tools;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.adk.tools.BaseTool;

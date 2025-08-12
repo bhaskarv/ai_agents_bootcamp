@@ -1,8 +1,8 @@
-package org.nvision.learn.agents.sample_agents.agent;
+package org.bhaskarv.learn.agents.sample_agents.agent;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;
-import org.nvision.learn.agents.sample_agents.tools.WeatherTools;
+import org.bhaskarv.learn.agents.sample_agents.tools.WeatherTools;
 
 public class WeatherForecastAgent {
     public static BaseAgent ROOT_AGENT = initAgent();
