@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<adk.version>0.1.0</adk.version>
 	</properties>
 	<dependencies>
