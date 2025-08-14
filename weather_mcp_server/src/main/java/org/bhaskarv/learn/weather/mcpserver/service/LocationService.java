@@ -23,7 +23,7 @@ public class LocationService {
                 .build();
     }
 
-    public Location getGepCoordinates(String city, String country) {
+    public Location getGeoCoordinates(String city, String country) {
         log.info(" REQUEST RECEIVED FOR CITY {} ", city);
         String response = restClient.get()
                 .uri("search?city={city}&country={country}&format=jsonv2&limit=1&addressdetails=1", city, country)

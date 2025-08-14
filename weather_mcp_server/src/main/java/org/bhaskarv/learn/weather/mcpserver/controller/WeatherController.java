@@ -19,12 +19,12 @@ public class WeatherController {
 
     @GetMapping("/coordinates")
     public String getCoordinates(@RequestParam(name="country") String country, @RequestParam(name="city") String city) {
-        return locationService.getGepCoordinates(city, country).toString();
+        return locationService.getGeoCoordinates(city, country).toString();
     }
 
     @GetMapping("/forecast")
     public String forecast(@RequestParam(name="country") String country, @RequestParam(name="city") String city) {
-        Location location = locationService.getGepCoordinates(city, country);
+        Location location = locationService.getGeoCoordinates(city, country);
         return  weatherForecastService.forecastForGeoLocation(location.getLatitude(), location.getLongitude());
     }
 }

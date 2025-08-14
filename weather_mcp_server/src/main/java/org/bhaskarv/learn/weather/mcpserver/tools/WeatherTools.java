@@ -19,7 +19,7 @@ public class WeatherTools {
 
     @Tool(name = "lat-long-tool", description = "Gets latitude and longitude values for a given city & country combination")
     public Location locationTool(String countryName, String cityName) {
-        return locationService.getGepCoordinates(cityName, countryName);
+        return locationService.getGeoCoordinates(cityName, countryName);
     }
 
     @Tool(name = "forecast-tool", description = "Fetches weather forecast for a given lat-long comibnation")
