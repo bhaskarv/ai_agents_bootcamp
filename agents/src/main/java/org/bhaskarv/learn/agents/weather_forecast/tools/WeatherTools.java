@@ -19,7 +19,7 @@ public class WeatherTools {
     private static List<BaseTool> toolsList;
     private static List<BaseTool> getTools() {
         SseServerParameters serverParameters = SseServerParameters.builder()
-                .url("http://localhost:8182/sse")
+                .url("http://localhost:8080/sse")
                 .build();
 
         McpToolset.McpToolsAndToolsetResult mcpToolsAndToolsetResult;
