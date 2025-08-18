@@ -1,4 +1,4 @@
-package org.bhaskarv.learn.agents.sample_agents.tools;
+package org.bhaskarv.learn.agents.weather_forecast.tools;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.adk.tools.BaseTool;
@@ -19,7 +19,7 @@ public class WeatherTools {
     private static List<BaseTool> toolsList;
     private static List<BaseTool> getTools() {
         SseServerParameters serverParameters = SseServerParameters.builder()
-                .url("http://localhost:8080/sse")
+                .url("http://localhost:8182/sse")
                 .build();
 
         McpToolset.McpToolsAndToolsetResult mcpToolsAndToolsetResult;

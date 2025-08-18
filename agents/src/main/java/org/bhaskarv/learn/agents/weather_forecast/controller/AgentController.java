@@ -1,4 +1,4 @@
-package org.bhaskarv.learn.agents.sample_agents.controller;
+package org.bhaskarv.learn.agents.weather_forecast.controller;
 
 import com.google.adk.events.Event;
 import com.google.adk.runner.InMemoryRunner;
@@ -6,7 +6,7 @@ import com.google.adk.sessions.Session;
 import com.google.genai.types.Content;
 import com.google.genai.types.Part;
 import io.reactivex.rxjava3.core.Flowable;
-import org.bhaskarv.learn.agents.sample_agents.agent.HelloWorldAgent;
+import org.bhaskarv.learn.agents.sample_agents.HelloWorldAgent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;

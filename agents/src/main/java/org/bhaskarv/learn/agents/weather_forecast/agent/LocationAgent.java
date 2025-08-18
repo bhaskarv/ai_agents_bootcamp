@@ -1,8 +1,8 @@
-package org.bhaskarv.learn.agents.sample_agents.agent;
+package org.bhaskarv.learn.agents.weather_forecast.agent;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;
-import org.bhaskarv.learn.agents.sample_agents.tools.WeatherTools;
+import org.bhaskarv.learn.agents.weather_forecast.tools.WeatherTools;
 
 public class LocationAgent {
     public static BaseAgent ROOT_AGENT = initAgent();

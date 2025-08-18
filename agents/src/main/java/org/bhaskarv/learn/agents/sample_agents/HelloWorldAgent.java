@@ -1,4 +1,4 @@
-package org.bhaskarv.learn.agents.sample_agents.agent;
+package org.bhaskarv.learn.agents.sample_agents;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;

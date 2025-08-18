@@ -1,4 +1,4 @@
-package org.bhaskarv.learn.agents.sample_agents;
+package org.bhaskarv.learn.agents;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
